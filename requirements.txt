@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+openpyxl
+cartopy
+basemap-data-hires
+plotly
+statsmodels
