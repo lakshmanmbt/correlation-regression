@@ -3,7 +3,7 @@ import statsmodels.api as sm
 import os
 
 # Step 1: Load the Excel file
-file_path = r'C:\Users\Administrator\Downloads\correlation analysis\Excel input\dummy.xlsx'
+file_path = r"C:\Users\1484\Downloads\lakshmanmbt-GIT\correlation-regression\Excel input\tvs_reg.xlsx"
 df = pd.read_excel(file_path, engine='openpyxl')
 
 # Step 2: Define the independent variables (anticipation, self-confidence, driving skill)
@@ -38,7 +38,7 @@ single_value_stats = pd.DataFrame({
 
 # Extract the file name from the input path
 input_file_name = os.path.basename(file_path).replace('.xlsx', '')
-output_folder = r'C:\Users\Administrator\Downloads\correlation analysis\Excel output'
+output_folder = r'C:\Users\1484\Downloads\lakshmanmbt-GIT\correlation-regression\Excel output'
 
 # Ensure output folder exists
 os.makedirs(output_folder, exist_ok=True)

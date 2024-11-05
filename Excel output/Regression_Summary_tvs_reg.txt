@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          driving_score   R-squared:                       0.983
+Model:                            OLS   Adj. R-squared:                  0.983
+Method:                 Least Squares   F-statistic:                 8.391e+04
+Date:                Tue, 05 Nov 2024   Prob (F-statistic):               0.00
+Time:                        10:27:24   Log-Likelihood:                -8894.4
+No. Observations:                4446   AIC:                         1.780e+04
+Df Residuals:                    4442   BIC:                         1.782e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -1.6190      0.328     -4.937      0.000      -2.262      -0.976
+anticipation        1.0005      0.002    417.656      0.000       0.996       1.005
+self_confidence    -0.0310      0.002    -14.144      0.000      -0.035      -0.027
+driving_skill       0.0120      0.002      5.078      0.000       0.007       0.017
+==============================================================================
+Omnibus:                     1662.936   Durbin-Watson:                   1.842
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            76084.141
+Skew:                           1.043   Prob(JB):                         0.00
+Kurtosis:                      23.158   Cond. No.                     1.65e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.65e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
